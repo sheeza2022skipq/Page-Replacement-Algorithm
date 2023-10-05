@@ -1,0 +1,20 @@
+Final Content Of PageTable:
+------------------------------------------------------------------------------------------------
+ pid   |      page No      |         offset          |       frameNo      |   access    |   Page
+------------------------------------------------------------------------------------------------
+ P3    |          5        |            123          |          2         |      1      |  Fault  
+ P4    |         15        |           2010          |          3         |      1      |  Fault  
+ P2    |         10        |             25          |          1         |      2      |  Hit  
+ P1    |          2        |              5          |          0         |      2      |  Hit  
+ P3    |         20        |            562          |          5         |      1      |  Fault  
+ P3    |         19        |           1024          |          4         |      2      |  Hit  
+ P2    |          5        |            200          |          7         |      1      |  Fault  
+ P3    |          5        |            654          |          8         |      1      |  Fault  
+ P4    |         24        |           1024          |          9         |      1      |  Fault  
+ P2    |          2        |            100          |          6         |      2      |  Hit  
+entered PID , PAGENO ,and offset : P4 : 24 : 100 
+Physical Address : 18532 
+Total page hits: 4 
+Total page miss: 6 
+Main Memory left in bytes: 241664B 
+Main Memory left in KB: 236K 
